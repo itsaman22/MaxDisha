@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+}
+.navbar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 75px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul li{
+    justify-content: center;
+    margin: 0 23px;
+    list-style: none;
+}
+nav ul li a{
+    color:#004276;
+    text-decoration: none;
+
+}
+.left img{
+    width: 160px;
+    height: 60px;
+}
+.right{
+    margin-left: auto;
+}
+.Search{
+    margin-right: 30px;
+    box-shadow: 4px 4px 2px #004276; 
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 25px ;
+    background-position-x: right;
+    background-image: url(images/search.png);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    font: size 1.5rem;
+}
+.resetbtn{
+    border-radius: 10px;
+    color: white;
+    background-color: #004276;
+    height:40px;
+    width:120px ;
+    border: 2px solid black;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.grid-item{
+    margin: 15px;
+    height: 100px;
+    width: 90px;
+    border: 2px solid black;
+}
+.circle{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    background-color: #004276;
+    
+}
+.circle p{
+    font-size: 1.5rem;
+    color: white;
+    margin:40px 15px;
+    position: relative;
+    width: 60px;
+    height: 20px;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
