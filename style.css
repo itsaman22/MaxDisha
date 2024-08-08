@@ -3,15 +3,18 @@
     padding: 0;
 }
 body{
+    position:relative;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
     box-sizing: border-box;
     text-decoration: none;
-}
-.container{
+    background-color: #004276;
 }
 .navbar{
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-color:#35b6b4;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -35,8 +38,12 @@ nav ul li a{
     text-decoration: none;
 
 }
+nav ul li a:hover{
+    cursor: pointer;
+    font-size:1.1rem;
+}
 .left img{
-    width: 160px;
+    width: 140px;
     height: 60px;
 }
 .right{
@@ -64,38 +71,70 @@ nav ul li a{
     width:120px ;
     border: 2px solid black;
 }
-.main{
-    height: 100vh;
-    width: 100%;
-    position:relative;
+.resetbtn:hover{
+    height:42px;
+    width:122px ;
+}
+.boxes{
+    height:460px;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.grid-item{
-    margin: 15px;
-    height: 100px;
-    width: 90px;
-    border: 2px solid black;
-}
-.circle{
-    border-radius: 50%;
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    display: flex;
-    background-color: #004276;
-    
-}
-.circle p{
-    font-size: 1.5rem;
-    color: white;
-    margin:40px 15px;
-    position: relative;
-    width: 60px;
-    height: 20px;
+.disha{
+    margin-left:44%;
+    position:relative;
+    justify-content: center;
     align-items: center;
-    justify-content:center;
     text-align: center;
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: #004276;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 2px;
+    display: flex;
+}
+.disha:hover{
+    height: 55px;
+    width: 155px;
+    background-color: #35b6b4;
+}
+.disha a{
+    font-size: 1.4rem;
+    font-weight:600 ;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    position: relative;
+}
+#longtext{
+    font-size: 10px;
+    font-weight: 600;
+}
+.grid-item{
+    display: flex;
+    background-color:#417aa7;
+    box-shadow: 4px 4px 2px #000a11;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+}
+.grid-item:hover{
+    height: 58px;
+    width: 58px;
+    background-color:rgb(4, 36, 73) ;
+}
+.grid-item a{
+    font-size:1.2em;
+    text-decoration: none;
+    color: white;
 }
