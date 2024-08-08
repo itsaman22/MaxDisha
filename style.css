@@ -13,7 +13,7 @@ body{
 }
 .navbar{
     margin-bottom: 20px;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     background-color:#35b6b4;
     align-items: center;
     justify-content: center;
@@ -34,6 +34,8 @@ nav ul li{
     list-style: none;
 }
 nav ul li a{
+    font-size: '';
+    height: 4vh;
     color:#004276;
     text-decoration: none;
 
@@ -49,19 +51,17 @@ nav ul li a:hover{
 .right{
     margin-left: auto;
 }
-.Search{
+#search-input{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-right: 30px;
     box-shadow: 4px 4px 2px #004276; 
-    background-position-y: center;
-    background-repeat: no-repeat;
-    background-size: 25px ;
-    background-position-x: right;
-    background-image: url(images/search.png);
     width: 300px;
     height: 40px;
     border-radius: 10px;
-    color: black;
-    font: size 1.5rem;
+    font: size 2rem;
+    font-weight: 700;
 }
 .resetbtn{
     border-radius: 10px;
@@ -90,7 +90,7 @@ nav ul li a:hover{
     height: 50px;
     width: 150px;
     border: 2px solid black;
-    background-color: #004276;
+    background-color:#417aa7;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 2px;
     display: flex;
@@ -121,20 +121,21 @@ nav ul li a:hover{
     background-color:#417aa7;
     box-shadow: 4px 4px 2px #000a11;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     border: 2px solid rgb(0, 0, 0);
     justify-content:center;
     align-items: center;
     text-align:center;
+    transition: background-color 0.3s, transform 0.3s;
 }
 .grid-item:hover{
-    height: 58px;
-    width: 58px;
+    height: 68px;
+    width: 68px;
     background-color:rgb(4, 36, 73) ;
 }
 .grid-item a{
-    font-size:1.2em;
+    font-size:13px;
     text-decoration: none;
-    color: white;
+    color:white;
 }
