@@ -9,7 +9,7 @@ body{
     font-style: normal;
     box-sizing: border-box;
     text-decoration: none;
-    background-color: #004276;
+    background-image: linear-gradient(to right, #004276, #35b6b4);
 }
 .navbar{
     margin-bottom: 20px;
